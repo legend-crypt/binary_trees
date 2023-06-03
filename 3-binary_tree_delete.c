@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * binary_tree_delete - This function deletes a binary tree
- * @tree - the tree to be deleted
+ * @tree: - the tree to be deleted
  */
 
 void binary_tree_delete(binary_tree_t *tree)
@@ -19,6 +19,6 @@ void binary_tree_delete(binary_tree_t *tree)
 			binary_tree_delete(tree->right);
 		}
 		free(tree);
-	}	
+	}
 }
 
