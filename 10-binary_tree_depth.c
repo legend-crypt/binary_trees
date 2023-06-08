@@ -1,6 +1,6 @@
 #include "binary_trees.h"
 /**
- * binary_tree_depth - this function 
+ * binary_tree_depth - this function
  * @tree: the tree to be traversed
  * Return: the depth of a node
  */
